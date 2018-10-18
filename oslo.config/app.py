@@ -28,20 +28,18 @@ CONF.register_group(opt_group)
 CONF.register_opts(simple_opts, opt_group)
 CONF.register_cli_opts(cli_opts)
 
-def list_opts():
-    return [
-        ('simple', simple_opts),
-        ('cli', cli_opts)
-    ]
-
 if __name__ == "__main__":
 
+    '''
+    run it: 
+        python app.py --file gen.conf
+    '''
     #CONF(default_config_files=['app.conf'])
-    CONF(sys.argv[1:] + ['--config-file', 'app.conf'])
+    CONF(sys.argv[1:])
 
     print(CONF.simple.enable)
     print(CONF.file)
 
-    # only this registered namespace can work..
+    # only registered namespaces can work..
     # oslo-config-generator --namespace oslo.messaging
     generator.main(args=['--namespace', 'oslo.messaging', '--output-file', CONF.file])
