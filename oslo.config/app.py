@@ -22,7 +22,7 @@ cli_opts = [
     cfg.StrOpt("file", default="gen.conf", help="the config file to save as.")
 ]
 
-CONF = cfg.CONF
+CONF = cfg.CONF # CONF: ConfigOpts
 
 CONF.register_group(opt_group)
 CONF.register_opts(simple_opts, opt_group)
