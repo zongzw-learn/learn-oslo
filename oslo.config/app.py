@@ -1,3 +1,8 @@
+
+'''
+pip install oslo.config
+pip install oslo.messaging
+'''
 from oslo_config import cfg
 from oslo_config import generator
 
