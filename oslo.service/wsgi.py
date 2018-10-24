@@ -86,4 +86,3 @@ if __name__ == "__main__":
     serv.add_action("", default_action)
     serv.add_action("test", test_action)
     serv.start()
-
