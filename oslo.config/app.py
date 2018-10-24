@@ -37,9 +37,9 @@ if __name__ == "__main__":
 
     '''
     run it: 
-        python app.py --file gen.conf
+        python app.py --config-file app.conf --file gen.conf
     '''
-    #CONF(default_config_files=['app.conf'])
+    CONF(default_config_files=['app.conf'])
     CONF(sys.argv[1:])
 
     print(CONF.simple.enable)
