@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8
 import sys
 from webob import Request
 from oslo_config import cfg
@@ -60,7 +60,6 @@ class MiniService:
         launcher.wait()
 
 
-# -*- coding: utf-8 -*-
 import sys
 from oslo_config import cfg
 from oslo_log import log as logging
