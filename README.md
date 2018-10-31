@@ -3,6 +3,7 @@
 A repo for acknowledging OpenStack Common Library: OSLO.
 
 oslo常用组件的一览表
+```
 
 库名 	                                         作用 	                       背景知识
 oslo.config 	                                配置文件 	                   无
@@ -18,3 +19,4 @@ oslo.policy 	                                权限系统 	                    d
 oslo.middleware 	                            pipeline 	                    deploy paste
 keystonemiddleware 	                            用户系统 	                    deploy paste + keystone
 oslo_test 	                                    测试 	                        unittest
+```
