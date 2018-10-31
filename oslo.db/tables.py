@@ -1,7 +1,11 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Table, MetaData
 
-from cfgopts import DBCfg
+from oslo_utils import importutils
+
+# pylint error for relative import.
+#from cfgopts import DBCfg
+DBCfg = importutils.import_class('cfgopts.DBCfg')
 
 Base = declarative_base()
 

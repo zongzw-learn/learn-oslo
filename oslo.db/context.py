@@ -1,6 +1,14 @@
+'''
+# pylint error for relative import.
 import tables
 from tables import User
 from cfgopts import DBCfg
+'''
+from oslo_utils import importutils
+tables = importutils.import_module('tables')
+User = importutils.import_class('tables.User')
+DBCfg = importutils.import_class('cfgopts.DBCfg')
+
 from oslo_db.sqlalchemy import enginefacade
 
 tables.create_all()
