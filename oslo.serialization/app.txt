@@ -1,0 +1,1 @@
+{"data": {"password": {"strong": "******", "weak": "123456", "passlen": [1, 2, 3, 4, 5]}, "fullname": "andrew zong", "score": 0, "name": "zong"}}
