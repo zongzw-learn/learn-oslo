@@ -24,7 +24,8 @@ def slow_routine(delay):
 
 func = slow_routine(0.5)
 
-with timeutils.StopWatch() as w: # implicitely called w.stop()
+# default duration is 60
+with timeutils.StopWatch(duration=60) as w: # implicitely called w.stop() 
     func()
 
 print(w.elapsed())
