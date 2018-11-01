@@ -1,0 +1,130 @@
+{
+    "token": {
+        "issued_at": "2018-11-01T06:32:45.000000Z",
+        "expires": "2018-11-01T07:32:45Z",
+        "id": "b5843c0328c3425680c880497d49b56c",
+        "tenant": {
+            "description": "admin tenant",
+            "enabled": true,
+            "id": "fde45211da0a44ecbf38cb0b644ab30d",
+            "name": "admin"
+        },
+        "audit_ids": [
+            "GDJ6iguWQfWDCKvei-CN9A"
+        ],
+        "username": "admin",
+        "roles_links": [],
+        "roles": [
+            {
+                "name": "admin"
+            }
+        ],
+        "name": "admin",
+        "project": {
+            "id": "fde45211da0a44ecbf38cb0b644ab30d"
+        }
+    },
+    "serviceCatalog": [
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:8774/v2/fde45211da0a44ecbf38cb0b644ab30d",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:8774/v2/fde45211da0a44ecbf38cb0b644ab30d",
+                    "id": "43275deab0f043e0a02b49517fdce1fd",
+                    "publicURL": "http://10.145.116.217:8774/v2/fde45211da0a44ecbf38cb0b644ab30d"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "compute",
+            "name": "nova"
+        },
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:9696",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:9696",
+                    "id": "5a02ce706ba9428fa3c1056c95260f8b",
+                    "publicURL": "http://10.145.116.217:9696"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "network",
+            "name": "neutron"
+        },
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:8774/v3",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:8774/v3",
+                    "id": "2e731e724978457cb86457baba948789",
+                    "publicURL": "http://10.145.116.217:8774/v3"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "computev3",
+            "name": "novav3"
+        },
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:9292",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:9292",
+                    "id": "351173636a92491699361a9894017954",
+                    "publicURL": "http://10.145.116.217:9292"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "image",
+            "name": "Image Service"
+        },
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:9311",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:9311",
+                    "id": "5b07b7c63835447d9821f9a8610b3d86",
+                    "publicURL": "http://10.145.116.217:9311"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "key-manager",
+            "name": "barbican"
+        },
+        {
+            "endpoints": [
+                {
+                    "adminURL": "http://10.145.116.217:35357/v2.0",
+                    "region": "RegionOne",
+                    "internalURL": "http://10.145.116.217:5000/v2.0",
+                    "id": "67cc91a7bc0842588bc934ff54c22846",
+                    "publicURL": "http://10.145.116.217:5000/v2.0"
+                }
+            ],
+            "endpoints_links": [],
+            "type": "identity",
+            "name": "keystone"
+        }
+    ],
+    "user": {
+        "username": "admin",
+        "roles_links": [],
+        "id": "2d26c96aa0f345eaafc3f5b50d2bbd8e",
+        "roles": [
+            {
+                "name": "admin"
+            }
+        ],
+        "name": "admin"
+    },
+    "metadata": {
+        "is_admin": 0,
+        "roles": [
+            "c98d2a4914664025991d28f0e827902f"
+        ]
+    }
+}
