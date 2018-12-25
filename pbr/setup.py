@@ -9,6 +9,11 @@ https://stackoverflow.com/questions/9094220/trove-classifiers-definition
 
 '''
 
+'''
+python setup.py sdist
+python setup.py install 
+'''
+
 import setuptools
 
 setuptools.setup(setup_requires=['pbr'], pbr=True)
